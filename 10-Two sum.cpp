@@ -29,7 +29,9 @@ int main(){
     cin>>value;
 
     vector<int>R=twoSum(nums,value);
-    cout<<R[0]<<" "<<R[1]<<endl;
-    
+    if(R.empty()){
+        cout<<"No match found!";    
+    }
+    else cout<<R[0]<<" "<<R[1]<<endl;
     return 0;
 }

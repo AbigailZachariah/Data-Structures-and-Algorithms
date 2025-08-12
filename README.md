@@ -1,9 +1,10 @@
 # Data Structures and Algorithms in C++ 
-📌 This repository contains my personal solutions to a wide variety of DSA problems solved using C++.
+📌 This repository contains my implementations of a wide variety of DSA problems using C++.
 
 ## 🎯 Purpose
 The goal of this repository is to:
 -Track my DSA learning journey
+-Practice problem-solving techniques
 -Improve proficiency in C++
 
 ## ✨ Topics covered

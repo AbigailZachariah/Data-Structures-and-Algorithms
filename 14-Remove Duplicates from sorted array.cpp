@@ -26,6 +26,6 @@ int main(){
         nums.push_back(ele);
     }
     int result= remove_duplicates(nums,number);
-    cout<<"Number of unique elements" <<result;
+    cout<<"Number of unique elements: " <<result;
     return 0;
 }

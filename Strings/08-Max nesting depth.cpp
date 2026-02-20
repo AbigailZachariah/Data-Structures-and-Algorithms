@@ -16,6 +16,6 @@ int main(){
     cout<<"Enter the string:";
     cin>>str;
 
-    cout<<"Mximum Nesting Depth:"<<maxDepth(str);
+    cout<<"Maximum Nesting Depth:"<<maxDepth(str);
     return 0;
 }

@@ -49,7 +49,7 @@ Node * removeDuplicates(Node *head) {
         while(nextNode!=NULL&& nextNode->data==temp->data){
             Node*duplicate=nextNode;
             nextNode=nextNode->next;
-            free(duplicate);
+            delete(duplicate);
         }
         temp->next=nextNode;
         if(nextNode!=NULL) nextNode->back=temp;

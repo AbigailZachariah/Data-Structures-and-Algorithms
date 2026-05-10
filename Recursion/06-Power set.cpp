@@ -40,7 +40,7 @@ int main() {
 
     for (auto arr : result) {
         for(int it:arr){
-            cout << it<" ";
+            cout << it<<" ";
         }
         cout<<endl;
     }

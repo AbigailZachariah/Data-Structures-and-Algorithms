@@ -39,7 +39,7 @@ int main() {
     }
 
     int k;
-    cout<<"Enter the target sum: ";
+    cout<<"Enter the target sum:";
     cin>>k;
 
     cout<<"The number of sub sequences with sum K: ";

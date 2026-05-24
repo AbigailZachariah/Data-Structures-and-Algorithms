@@ -35,7 +35,7 @@ int main() {
         cin>>ele;
         nums.push_back(ele);
     }
-    cout<<"Combinations of Candidates: ";
+
     vector<int>result=subsetSums(nums);
 
     for(auto it:result){

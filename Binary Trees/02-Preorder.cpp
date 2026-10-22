@@ -60,7 +60,7 @@ int main() {
 
     vector<int> result = preorderTraversal(root);
 
-    cout << "\nInorder Traversal: ";
+    cout << "\n Preorder Traversal: ";
     for (int val : result) {
         cout << val << " ";
     }
